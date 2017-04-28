@@ -1,6 +1,7 @@
 Synthetic dataset of random undirected graphcial models and Neural Networks training For the paper "Learning to discover sprase graphical models".
+And Graph LASSO.
 
-Run experiment.m if you want to see the results only. If you want to generate a new dataset and train a neural network, do the following:
+Run experiment_neuralnets.m and experiment_glasso.m if you want to see the results only. If you want to generate a new dataset and train a neural network, do the following:
 
 Graphs generation
 -----------------
@@ -11,6 +12,7 @@ Neural Nets training
 javac NeuralNets.java
 java NeuralNets
 
-Experiment
-----------
-experiment.m
+Experiments
+-----------
+experiment_neuralnets.m
+experiment_glasso.m
